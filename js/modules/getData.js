@@ -1,4 +1,4 @@
-const urlApi = "https://nabil-4.github.io/Esprit-Cretois-Nabil/json/products.json"
+const urlApi = "http://127.0.0.1:5501/json/products.json"
 
 const loadData = async () => {
     fetch(urlApi)
